@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CD337D9B0C07E977574614E1780F2AF /* JLRRouteHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5753D60365C690D3CA7D58733674157A /* JLRRouteHandler.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		415F7DFC2BD436C4011FAFA722C0E5D5 /* JLRRouteDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 4105AE1E2F74E5945DA04263669B999D /* JLRRouteDefinition.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		429603C9191337E69FC3E9E81817737D /* JLRParsingUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 14AAEC6EAE82B92A30CCBD34E28DD204 /* JLRParsingUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4D7C48CF81BE9ECEAA9A3765DAD3F23C /* JLRoutes.h in Headers */ = {isa = PBXBuildFile; fileRef = A1236DCD2A5638FAF79C3D8913BFF1CB /* JLRoutes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5CAC8C4FAAD5EAD9997BEA450906154D /* JLRoutes-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CB5199F7594ED3CC95EAB255F18BC7 /* JLRoutes-dummy.m */; };
+		67C81939A5B0C0CB45C75DB5332063F9 /* JLRoutes.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DF599279BCDADCBD61BD9187A8D49F /* JLRoutes.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6B83475BB0CADC9C9CCEA45E31A7F7B6 /* JLRParsingUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 91BF880D511C897A2A0BFFDEA5360361 /* JLRParsingUtilities.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		843C25346FF40FF92E79CDF85F210DA7 /* JLRRouteResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 169342F223E76346A8B18A19821E9A92 /* JLRRouteResponse.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A53D790FCA88291DA6D6EE10EC854951 /* JLRRouteDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C89037AFE4BC34F37DC5E54F0A84F8E /* JLRRouteDefinition.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B7E99051B89198098A04015E7876FF9C /* JLRRouteRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8C12D2E809C42341777F34550208A7 /* JLRRouteRequest.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CAA903DF353EB383EDBA331E91A4AD6C /* Pods-NativeFlutterProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B5A0AF007D2410A54C87D619F231D7 /* Pods-NativeFlutterProject-dummy.m */; };
+		F8F45CDBFFEABACF42BA6893BB96541B /* JLRRouteHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 88ECC83C64E0CBFAF660CF1E3FBE2C11 /* JLRRouteHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FDB863EF1EF9EF95193358B4FEF1CF12 /* JLRRouteResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 949D613EFF944193231AA56F2E3D3CFC /* JLRRouteResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FE8110EA06111D21531F5D18813917F8 /* JLRRouteRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 561140DE4A483C4001787419F378F47B /* JLRRouteRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E033709B2760D5F8702A9050BB2EF3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94C1BAA17BCEBC27586488A205D2E0CB;
+			remoteInfo = JLRoutes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14AAEC6EAE82B92A30CCBD34E28DD204 /* JLRParsingUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLRParsingUtilities.h; path = JLRoutes/Classes/JLRParsingUtilities.h; sourceTree = "<group>"; };
+		169342F223E76346A8B18A19821E9A92 /* JLRRouteResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLRRouteResponse.m; path = JLRoutes/Classes/JLRRouteResponse.m; sourceTree = "<group>"; };
+		26B5A0AF007D2410A54C87D619F231D7 /* Pods-NativeFlutterProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NativeFlutterProject-dummy.m"; sourceTree = "<group>"; };
+		2C8C997FA2D4C1C5F971429A76FA7AB5 /* JLRoutes.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JLRoutes.xcconfig; sourceTree = "<group>"; };
+		35387D098CC0106F41589F671BABAE97 /* Pods-NativeFlutterProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NativeFlutterProject-acknowledgements.plist"; sourceTree = "<group>"; };
+		3C89037AFE4BC34F37DC5E54F0A84F8E /* JLRRouteDefinition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLRRouteDefinition.h; path = JLRoutes/Classes/JLRRouteDefinition.h; sourceTree = "<group>"; };
+		4105AE1E2F74E5945DA04263669B999D /* JLRRouteDefinition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLRRouteDefinition.m; path = JLRoutes/Classes/JLRRouteDefinition.m; sourceTree = "<group>"; };
+		50FFBAE87DAAA5D19C6D04413ED5E6D3 /* libJLRoutes.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libJLRoutes.a; path = libJLRoutes.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		561140DE4A483C4001787419F378F47B /* JLRRouteRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLRRouteRequest.h; path = JLRoutes/Classes/JLRRouteRequest.h; sourceTree = "<group>"; };
+		5753D60365C690D3CA7D58733674157A /* JLRRouteHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLRRouteHandler.m; path = JLRoutes/Classes/JLRRouteHandler.m; sourceTree = "<group>"; };
+		5CFF133D8BABECAEB5FE086DB5814277 /* JLRoutes-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLRoutes-prefix.pch"; sourceTree = "<group>"; };
+		72E41DC6EF73F7E4A4C412471CFA6C10 /* libPods-NativeFlutterProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-NativeFlutterProject.a"; path = "libPods-NativeFlutterProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74E6976586E9BD886DD999FD0416696D /* Pods-NativeFlutterProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NativeFlutterProject.debug.xcconfig"; sourceTree = "<group>"; };
+		88ECC83C64E0CBFAF660CF1E3FBE2C11 /* JLRRouteHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLRRouteHandler.h; path = JLRoutes/Classes/JLRRouteHandler.h; sourceTree = "<group>"; };
+		9154EC413DC585AD43F59D8C2A0442A6 /* Pods-NativeFlutterProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NativeFlutterProject-acknowledgements.markdown"; sourceTree = "<group>"; };
+		91BF880D511C897A2A0BFFDEA5360361 /* JLRParsingUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLRParsingUtilities.m; path = JLRoutes/Classes/JLRParsingUtilities.m; sourceTree = "<group>"; };
+		949D613EFF944193231AA56F2E3D3CFC /* JLRRouteResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLRRouteResponse.h; path = JLRoutes/Classes/JLRRouteResponse.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F8C12D2E809C42341777F34550208A7 /* JLRRouteRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLRRouteRequest.m; path = JLRoutes/Classes/JLRRouteRequest.m; sourceTree = "<group>"; };
+		A1236DCD2A5638FAF79C3D8913BFF1CB /* JLRoutes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLRoutes.h; path = JLRoutes/JLRoutes.h; sourceTree = "<group>"; };
+		B31E7433CB68B90A02C5FEABF17F7EBE /* Pods-NativeFlutterProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NativeFlutterProject.release.xcconfig"; sourceTree = "<group>"; };
+		D1CB5199F7594ED3CC95EAB255F18BC7 /* JLRoutes-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JLRoutes-dummy.m"; sourceTree = "<group>"; };
+		F7DF599279BCDADCBD61BD9187A8D49F /* JLRoutes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLRoutes.m; path = JLRoutes/JLRoutes.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		870FE6DCAC368C133AC9E00A827D4CF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55C705BC9931788A0945201D2404797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15F13FBEF579BF3FA6264B422602F5FF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				74CE59BD296B77E594A8EC5F3D611E54 /* Pods-NativeFlutterProject */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		48DE05140112148A5E8893CD67BE55FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9EDCE0D47B03175BE977713113103630 /* JLRoutes */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		74CE59BD296B77E594A8EC5F3D611E54 /* Pods-NativeFlutterProject */ = {
+			isa = PBXGroup;
+			children = (
+				9154EC413DC585AD43F59D8C2A0442A6 /* Pods-NativeFlutterProject-acknowledgements.markdown */,
+				35387D098CC0106F41589F671BABAE97 /* Pods-NativeFlutterProject-acknowledgements.plist */,
+				26B5A0AF007D2410A54C87D619F231D7 /* Pods-NativeFlutterProject-dummy.m */,
+				74E6976586E9BD886DD999FD0416696D /* Pods-NativeFlutterProject.debug.xcconfig */,
+				B31E7433CB68B90A02C5FEABF17F7EBE /* Pods-NativeFlutterProject.release.xcconfig */,
+			);
+			name = "Pods-NativeFlutterProject";
+			path = "Target Support Files/Pods-NativeFlutterProject";
+			sourceTree = "<group>";
+		};
+		9EDCE0D47B03175BE977713113103630 /* JLRoutes */ = {
+			isa = PBXGroup;
+			children = (
+				A1236DCD2A5638FAF79C3D8913BFF1CB /* JLRoutes.h */,
+				F7DF599279BCDADCBD61BD9187A8D49F /* JLRoutes.m */,
+				14AAEC6EAE82B92A30CCBD34E28DD204 /* JLRParsingUtilities.h */,
+				91BF880D511C897A2A0BFFDEA5360361 /* JLRParsingUtilities.m */,
+				3C89037AFE4BC34F37DC5E54F0A84F8E /* JLRRouteDefinition.h */,
+				4105AE1E2F74E5945DA04263669B999D /* JLRRouteDefinition.m */,
+				88ECC83C64E0CBFAF660CF1E3FBE2C11 /* JLRRouteHandler.h */,
+				5753D60365C690D3CA7D58733674157A /* JLRRouteHandler.m */,
+				561140DE4A483C4001787419F378F47B /* JLRRouteRequest.h */,
+				9F8C12D2E809C42341777F34550208A7 /* JLRRouteRequest.m */,
+				949D613EFF944193231AA56F2E3D3CFC /* JLRRouteResponse.h */,
+				169342F223E76346A8B18A19821E9A92 /* JLRRouteResponse.m */,
+				F7324428B9866E3CF6E955D746DA1EDD /* Support Files */,
+			);
+			name = JLRoutes;
+			path = JLRoutes;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				48DE05140112148A5E8893CD67BE55FF /* Pods */,
+				E8101DECB327C0E9B69D6B61C4C64DA3 /* Products */,
+				15F13FBEF579BF3FA6264B422602F5FF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8101DECB327C0E9B69D6B61C4C64DA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50FFBAE87DAAA5D19C6D04413ED5E6D3 /* libJLRoutes.a */,
+				72E41DC6EF73F7E4A4C412471CFA6C10 /* libPods-NativeFlutterProject.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7324428B9866E3CF6E955D746DA1EDD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C8C997FA2D4C1C5F971429A76FA7AB5 /* JLRoutes.xcconfig */,
+				D1CB5199F7594ED3CC95EAB255F18BC7 /* JLRoutes-dummy.m */,
+				5CFF133D8BABECAEB5FE086DB5814277 /* JLRoutes-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JLRoutes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		03BEBF725B97423470C475A112D37A52 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D7C48CF81BE9ECEAA9A3765DAD3F23C /* JLRoutes.h in Headers */,
+				429603C9191337E69FC3E9E81817737D /* JLRParsingUtilities.h in Headers */,
+				A53D790FCA88291DA6D6EE10EC854951 /* JLRRouteDefinition.h in Headers */,
+				F8F45CDBFFEABACF42BA6893BB96541B /* JLRRouteHandler.h in Headers */,
+				FE8110EA06111D21531F5D18813917F8 /* JLRRouteRequest.h in Headers */,
+				FDB863EF1EF9EF95193358B4FEF1CF12 /* JLRRouteResponse.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BFA2193553F3D593B1BAA45C8B427C2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4814CB3AAA7ED1E3B633D5248A434EA7 /* Pods-NativeFlutterProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D62C53838C95215D78A52FFEAA886E4C /* Build configuration list for PBXNativeTarget "Pods-NativeFlutterProject" */;
+			buildPhases = (
+				9BFA2193553F3D593B1BAA45C8B427C2 /* Headers */,
+				9CB1CCA3DB6A62ABC68153343766669F /* Sources */,
+				B55C705BC9931788A0945201D2404797 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FAA50CBC78FA1354919EF6A39875FD7 /* PBXTargetDependency */,
+			);
+			name = "Pods-NativeFlutterProject";
+			productName = "Pods-NativeFlutterProject";
+			productReference = 72E41DC6EF73F7E4A4C412471CFA6C10 /* libPods-NativeFlutterProject.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		94C1BAA17BCEBC27586488A205D2E0CB /* JLRoutes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76785DC1654C900048B79DF785D076E9 /* Build configuration list for PBXNativeTarget "JLRoutes" */;
+			buildPhases = (
+				03BEBF725B97423470C475A112D37A52 /* Headers */,
+				0D571B40A49467E1E8A0130FA7038BEB /* Sources */,
+				870FE6DCAC368C133AC9E00A827D4CF2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JLRoutes;
+			productName = JLRoutes;
+			productReference = 50FFBAE87DAAA5D19C6D04413ED5E6D3 /* libJLRoutes.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E8101DECB327C0E9B69D6B61C4C64DA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94C1BAA17BCEBC27586488A205D2E0CB /* JLRoutes */,
+				4814CB3AAA7ED1E3B633D5248A434EA7 /* Pods-NativeFlutterProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D571B40A49467E1E8A0130FA7038BEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CAC8C4FAAD5EAD9997BEA450906154D /* JLRoutes-dummy.m in Sources */,
+				67C81939A5B0C0CB45C75DB5332063F9 /* JLRoutes.m in Sources */,
+				6B83475BB0CADC9C9CCEA45E31A7F7B6 /* JLRParsingUtilities.m in Sources */,
+				415F7DFC2BD436C4011FAFA722C0E5D5 /* JLRRouteDefinition.m in Sources */,
+				0CD337D9B0C07E977574614E1780F2AF /* JLRRouteHandler.m in Sources */,
+				B7E99051B89198098A04015E7876FF9C /* JLRRouteRequest.m in Sources */,
+				843C25346FF40FF92E79CDF85F210DA7 /* JLRRouteResponse.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CB1CCA3DB6A62ABC68153343766669F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAA903DF353EB383EDBA331E91A4AD6C /* Pods-NativeFlutterProject-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FAA50CBC78FA1354919EF6A39875FD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JLRoutes;
+			target = 94C1BAA17BCEBC27586488A205D2E0CB /* JLRoutes */;
+			targetProxy = 0E033709B2760D5F8702A9050BB2EF3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1426D7F64C25D20C3AA1893218503789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B31E7433CB68B90A02C5FEABF17F7EBE /* Pods-NativeFlutterProject.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31807284F70483EA4F82135EE2BE2534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C8C997FA2D4C1C5F971429A76FA7AB5 /* JLRoutes.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/JLRoutes/JLRoutes-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = JLRoutes;
+				PRODUCT_NAME = JLRoutes;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8F91ED91181ED7709B7DC57951D5B1F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74E6976586E9BD886DD999FD0416696D /* Pods-NativeFlutterProject.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F18440E8C07D4A8AFCD407424F1FA305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C8C997FA2D4C1C5F971429A76FA7AB5 /* JLRoutes.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/JLRoutes/JLRoutes-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = JLRoutes;
+				PRODUCT_NAME = JLRoutes;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76785DC1654C900048B79DF785D076E9 /* Build configuration list for PBXNativeTarget "JLRoutes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18440E8C07D4A8AFCD407424F1FA305 /* Debug */,
+				31807284F70483EA4F82135EE2BE2534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D62C53838C95215D78A52FFEAA886E4C /* Build configuration list for PBXNativeTarget "Pods-NativeFlutterProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F91ED91181ED7709B7DC57951D5B1F3 /* Debug */,
+				1426D7F64C25D20C3AA1893218503789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
